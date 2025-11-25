@@ -1,0 +1,26 @@
+﻿<Window x:Class="SAE_PROG.finWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SAE_PROG"
+        mc:Ignorable="d"
+        Title="finWindow" Height="900" Width="1600">
+    <Canvas>
+        <Canvas.Background>
+            <ImageBrush ImageSource="/af11d6956cceacbd536bbd3b3a967a5e.jpeg"/>
+        </Canvas.Background>
+        <Image Height="954" Canvas.Left="182" Source="/img/image de fin.png" Stretch="Fill" Canvas.Top="41" Width="1267" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.116"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
+
+    </Canvas>
+</Window>

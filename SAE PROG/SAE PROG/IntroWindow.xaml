@@ -1,0 +1,59 @@
+﻿<Window x:Class="SAE_PROG.IntroWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SAE_PROG"
+        mc:Ignorable="d"
+        Title="IntroWindow" Height="900" Width="1600">
+    <Grid>
+        <ContentControl x:Name="MainContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Canvas RenderTransformOrigin="0.495,0.514">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/85a0a9e8e8c4b26194029a6588884db8.jpg"/>
+            </Canvas.Background>
+            <Button Style="{DynamicResource SettingsButton}" x:Name="settings" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Height="79" Width="442" RenderTransformOrigin="0.5,0.5" Click="SettingsButton_Click" Canvas.Left="579" Canvas.Top="675" Foreground="White" BorderBrush="Transparent">
+                <Button.Background>
+                    <ImageBrush ImageSource="/button (3).png"/>
+                </Button.Background>
+                <Button.RenderTransform>
+                    <ScaleTransform />
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1.2" Duration="0:0:0.5" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="1.2" Duration="0:0:0.5" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+            <Image Height="582" Canvas.Left="-183" Source="/potiron/potiron0001.png" Stretch="Fill" Canvas.Top="-167" Width="761" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Image Height="147" Canvas.Left="75" Source="/anime_banane/banane01.png" Stretch="Fill" Canvas.Top="649" Width="142" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Image Height="147" Canvas.Left="1399" Source="/anime_banane/bananeG01.png" Stretch="Fill" Canvas.Top="649" Width="139" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Image Height="686" Canvas.Left="309" Source="/img/logo potironator.png" Stretch="Fill" Canvas.Top="-79" Width="994" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Style="{DynamicResource ButtonStyle4}" Content="" Canvas.Left="579" Canvas.Top="521" Height="86" Width="442" Click="Button_Click" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" BorderBrush="#00707070">
+                <Button.Background>
+                    <ImageBrush ImageSource="/button (1).png"/>
+                </Button.Background>
+                <Button.RenderTransform>
+                    <ScaleTransform />
+                </Button.RenderTransform>
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Loaded">
+                        <BeginStoryboard>
+                            <Storyboard RepeatBehavior="Forever" AutoReverse="True">
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1.2" Duration="0:0:0.5" />
+                                <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="1.2" Duration="0:0:0.5" />
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+
+        </Canvas>
+    </Grid>
+
+</Window>

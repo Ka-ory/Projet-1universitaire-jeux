@@ -1,0 +1,135 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>SAE_PROG</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="85a0a9e8e8c4b26194029a6588884db8.jpg" />
+    <None Remove="af11d6956cceacbd536bbd3b3a967a5e.jpeg" />
+    <None Remove="anime_banane\banane01.png" />
+    <None Remove="anime_banane\banane02.png" />
+    <None Remove="anime_banane\banane03.png" />
+    <None Remove="anime_banane\banane04.png" />
+    <None Remove="anime_banane\banane05.png" />
+    <None Remove="anime_banane\bananeG01.png" />
+    <None Remove="anime_banane\bananeG02.png" />
+    <None Remove="anime_banane\bananeG03.png" />
+    <None Remove="anime_banane\bananeG04.png" />
+    <None Remove="anime_banane\bananeG05.png" />
+    <None Remove="bouton - Copie %282%29.png" />
+    <None Remove="bouton - Copie.png" />
+    <None Remove="bouton.png" />
+    <None Remove="button %281%29.png" />
+    <None Remove="button %282%29.png" />
+    <None Remove="button %283%29.png" />
+    <None Remove="button %285%29.png" />
+    <None Remove="button %286%29.png" />
+    <None Remove="button %287%29.png" />
+    <None Remove="button.png" />
+    <None Remove="img\balle.png" />
+    <None Remove="img\cadenas.png" />
+    <None Remove="img\chateau.PNG" />
+    <None Remove="img\coup.png" />
+    <None Remove="img\couronne.png" />
+    <None Remove="img\feu.png" />
+    <None Remove="img\Fruit1.png" />
+    <None Remove="img\Fruit2.png" />
+    <None Remove="img\image de fin.png" />
+    <None Remove="img\logo potironator.png" />
+    <None Remove="img\map1.png" />
+    <None Remove="img\Map2.PNG" />
+    <None Remove="img\Map3.png" />
+    <None Remove="img\mapvide.jpeg" />
+    <None Remove="img\mapvide.PNG" />
+    <None Remove="img\mapvide1.png" />
+    <None Remove="img\mapvide2.png" />
+    <None Remove="img\potiron.pclx" />
+    <None Remove="img\projectilepotiron.png" />
+    <None Remove="old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg" />
+    <None Remove="potiron\potiron0001.png" />
+    <None Remove="potiron\potiron0002.png" />
+    <None Remove="potiron\potiron0003.png" />
+    <None Remove="potiron\potiron0004.png" />
+    <None Remove="sons\Aie.wav" />
+    <None Remove="sons\Boss.wav" />
+    <None Remove="sons\BruitPas.wav" />
+    <None Remove="sons\Pas.wav" />
+    <None Remove="sons\Piou.wav" />
+    <None Remove="sons\Porte.wav" />
+    <None Remove="t94tjsskssz11 - Copie.jpg" />
+    <None Remove="t94tjsskssz11.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="85a0a9e8e8c4b26194029a6588884db8.jpg" />
+    <Resource Include="af11d6956cceacbd536bbd3b3a967a5e.jpeg" />
+    <Resource Include="anime_banane\banane01.png" />
+    <Resource Include="anime_banane\banane02.png" />
+    <Resource Include="anime_banane\banane03.png" />
+    <Resource Include="anime_banane\banane04.png" />
+    <Resource Include="anime_banane\banane05.png" />
+    <Resource Include="anime_banane\bananeG01.png" />
+    <Resource Include="anime_banane\bananeG02.png" />
+    <Resource Include="anime_banane\bananeG03.png" />
+    <Resource Include="anime_banane\bananeG04.png" />
+    <Resource Include="anime_banane\bananeG05.png" />
+    <Resource Include="bouton - Copie (2).png" />
+    <Resource Include="bouton - Copie.png" />
+    <Resource Include="bouton.png" />
+    <Resource Include="button (1).png" />
+    <Resource Include="button (2).png" />
+    <Resource Include="button (3).png" />
+    <Resource Include="button (5).png" />
+    <Resource Include="button (6).png" />
+    <Resource Include="button (7).png" />
+    <Resource Include="button.png" />
+    <Resource Include="img\balle.png" />
+    <Resource Include="img\cadenas.png" />
+    <Resource Include="img\chateau.PNG" />
+    <Resource Include="img\coup.png" />
+    <Resource Include="img\couronne.png" />
+    <Resource Include="img\feu.png" />
+    <Resource Include="img\Fruit1.png" />
+    <Resource Include="img\Fruit2.png" />
+    <Resource Include="img\image de fin.png" />
+    <Resource Include="img\logo potironator.png" />
+    <Resource Include="img\map1.png" />
+    <Resource Include="img\Map2.PNG" />
+    <Resource Include="img\Map3.png" />
+    <Resource Include="img\mapvide.jpeg" />
+    <Resource Include="img\mapvide.PNG" />
+    <Resource Include="img\mapvide1.png" />
+    <Resource Include="img\mapvide2.png" />
+    <Resource Include="img\potiron.pclx" />
+    <Resource Include="img\projectilepotiron.png" />
+    <Resource Include="old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete.jpg" />
+    <Resource Include="potiron\potiron0001.png" />
+    <Resource Include="potiron\potiron0002.png" />
+    <Resource Include="potiron\potiron0003.png" />
+    <Resource Include="potiron\potiron0004.png" />
+    <Resource Include="sons\Aie.wav" />
+    <Resource Include="sons\Boss.wav" />
+    <Resource Include="sons\BruitPas.wav" />
+    <Resource Include="sons\Pas.wav" />
+    <Resource Include="sons\Piou.wav" />
+    <Resource Include="sons\Porte.wav" />
+    <Resource Include="t94tjsskssz11 - Copie.jpg" />
+    <Resource Include="t94tjsskssz11.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="sons\musiqueBoss.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="sons\musiqueChill.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
